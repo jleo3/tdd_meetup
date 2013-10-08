@@ -60,4 +60,8 @@ Waiting...[4mRunning "connect:server" (connect) task[24m
 Starting connect web server on localhost:8000.
 
 [4mRunning "watch" task[24m
+Waiting...[4mRunning "connect:server" (connect) task[24m
+Starting connect web server on localhost:8000.
+
+[4mRunning "watch" task[24m
 Waiting...
