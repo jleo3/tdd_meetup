@@ -1,13 +1,24 @@
 ##Agenda
-* Rant, Rave, make Dramatic Hand Gestures (5 minutes)
-* Calmly test drive something (20 minutes)
-* Where to Learn More (5 minutes)
+* Rant, Rave, make Dramatic Hand Gestures
+* Calmly test drive something
+* Where to Learn More
 
 ---
 
+<aside class="notes">
+When I have to be, I'm this kind of zealot.
+</aside>
+
+<img src="../../assets/enforcer.jpg" height="400" width="550">
 ##Disclaimer: I am a testing zealot
 
 ---
+
+<img src="../../assets/testing.jpg" height="400" width="550">
+##Disclaimer: I am a testing zealot
+
+---
+
 <aside class="notes">
 <ul>
 <li>
@@ -31,11 +42,16 @@ This one is where I am rightly called a zealot. There are many people who test l
 <li>
 The only way to ensure safety _and_ quality of design (think Sandi Metz and Bob Martin) is to test first.
 </ul>
+<li>
+You are building code for reuse and the first use of your code is your tests.
 </aside>
 
 ##Testing Guidelines
 
 * Test First > Test Last
+* WWSMD?
+
+![wwsmd](../../assets/wwsmd.jpg)
 
 ---
 <aside class="notes">
@@ -45,11 +61,12 @@ This one I'm serious about. Our industry is starving for developers. We need the
 <li>
 You can join the ranks of the mediocre easily. It's a low bar to cross. But if you want to be great, you have to test drive. I am an easy-going guy but I don't compromise on this. There's too much at stake.
 <li>
-I can tell you test driven code from now test-driven code in 2 seconds and I don't even need to see the tests. At a certain point it becomes obvious, second nature. You can feel the presence of testing and competency.
+I can tell you test driven code from non test-driven code in 2 seconds and I don't even need to see the tests. At a certain point it becomes obvious, second nature. You can feel the presence of testing and competency.
 <li>
 Our Users deserve better than they have right now. They deserve quality, craftsmanship, attention to detail. This is how you give it to them.
 </ul>
 </aside>
+
 ##Testing Guidelines
 
 * You Should Only Learn to Test Drive if You Want to Be a *Good* Developer
@@ -59,6 +76,13 @@ Our Users deserve better than they have right now. They deserve quality, craftsm
 ## `</rant>`
 
 ---
+
+##What Does Good Testing Look Like?
+![loc](../../assets/loc.png)
+
+
+---
+
 <aside class="notes">
 <ul>
 <li>
@@ -88,10 +112,18 @@ TODO: configure minitest
 * Select server, database, template engine, test framework, and more
 
 ---
-#Test Driving a Resource
+
+##Test Driving
+###Start with the Expectations
 
 ---
-#What did we learn?
+
+##Test Driving
+###Test Outside-In
+
+---
+##What did we learn?
+
 * Test first isn't easy and it's not always fast
 * Let the code guide you: I test drove through three classes without looking at the browser.
 * There's _so_ much to learn
