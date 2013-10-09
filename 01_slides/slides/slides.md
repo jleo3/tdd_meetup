@@ -45,10 +45,10 @@ If you sit down with someone who loves a particular framework, use it!
 <li>
 This one is where I am rightly called a zealot. There are many people who test last. Some of them may even do it successfully.
 <li>
+Sandi Metz says that software is built for reuse and the first use of your software is your tests.
+<li>
 The only way to ensure safety _and_ quality of design (think Sandi Metz and Bob Martin) is to test first.
 </ul>
-<li>
-You are building code for reuse and the first use of your code is your tests.
 </aside>
 
 ##Testing Guidelines
@@ -80,7 +80,7 @@ The site falls over under heavy load
 <li>
 It forgets users that regsitered before Oct 1
 <li>
-Users are prevented from opening accounts for no reason.
+Users are prevented from creating new accounts for no reason.
 <li>
 Users received a registration email with a broken link in it.
 <li>
@@ -96,11 +96,12 @@ I'd bet a large amount of money that this site was not test driven. It's easy to
 <aside class="notes">
 <ul>
 <li>
-You can join the ranks of the mediocre easily. It's a low bar to cross. But if you aspire to better, and I know everyone here does, you have to test drive. I am an easy-going guy but I don't compromise on this. There's too much at stake.
+You can join the ranks of the mediocre easily. It's a low bar to cross. But if you aspire to better, and I know everyone here does, you have to test drive. I am an easy-going guy but I don't compromise on this. 
+
 <li>
-I can tell you test driven code from non test-driven code in 2 seconds and I don't even need to see the tests. At a certain point it becomes obvious, second nature. You can feel the presence of testing and competency.
+Not on personal projects, not when I'm pairing, and not during interviews. There's too much at stake.
 <li>
-Our Users deserve better than they have right now. They deserve quality, craftsmanship, attention to detail. This is how you give it to them.
+End users of web applications (everybody) deserve better than they have now. They deserve quality, craftsmanship, attention to detail. This is how you give it to them.
 </ul>
 </aside>
 
@@ -161,6 +162,10 @@ Bugs were found and fixed in seconds
 
 ---
 
+##GTWR
+
+---
+
 ##Test Driving
 ###Test Outside-In
 
@@ -201,6 +206,7 @@ Bugs were found and fixed in seconds
 * There's _so_ much to learn
 
 ---
+
 ##Great Frameworks in Testing
 
 * RSpec
@@ -209,6 +215,7 @@ Bugs were found and fixed in seconds
 * Capybara
 
 ---
+
 ##Great Minds in Testing
 
 * Brian Marick
