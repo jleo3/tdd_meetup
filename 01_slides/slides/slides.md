@@ -1,7 +1,7 @@
 ##Agenda
-* Rant, Rave, make Dramatic Hand Gestures
+* Rant, rave, make dramatic hand gestures
 * Calmly test drive something
-* Instruct Where to Learn More
+* Instruct where to learn more
 
 ---
 
@@ -10,15 +10,17 @@ When I have to be, I'm this kind of zealot.
 </aside>
 
 <img src="../../assets/enforcer.jpg" height="400" width="550">
-##Disclaimer: I am a testing zealot
+###Disclaimer: I am a testing zealot
 
 ---
 <aside class="notes">
 But I much prefer to be this kind of a zealot. I really enjoy testing and it puts me in a good place when I'm developing.
 </aside>
 
+##"We're going TESTING!"
+
 <img src="../../assets/testing.jpg" height="400" width="550">
-##Disclaimer: I am a testing zealot
+###Disclaimer: I am a testing zealot
 
 ---
 
@@ -165,9 +167,33 @@ Bugs were found and fixed in seconds
 ---
 
 ##Test Driving
+###Know What Your Are Testing
+
+* Unit vs. Integration Specs
+
+---
+
+
+##Test Driving
 ###Start with the Expectations
 
 ---
+
+##Test Driving
+###Make Your Specs Fail for the Right Reason
+
+---
+
+##Test Driving
+###Write the Least Amount of Code to Pass the Spec
+
+---
+
+##Test Driving
+###Practice Ping Pong Pairing
+
+---
+
 ##What did we learn?
 
 * Test first isn't easy and it's not always fast
