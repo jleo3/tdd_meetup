@@ -1,7 +1,7 @@
 ##Agenda
 * Rant, Rave, make Dramatic Hand Gestures
 * Calmly test drive something
-* Where to Learn More
+* Instruct Where to Learn More
 
 ---
 
@@ -13,6 +13,9 @@ When I have to be, I'm this kind of zealot.
 ##Disclaimer: I am a testing zealot
 
 ---
+<aside class="notes">
+But I much prefer to be this kind of a zealot. I really enjoy testing and it puts me in a good place when I'm developing.
+</aside>
 
 <img src="../../assets/testing.jpg" height="400" width="550">
 ##Disclaimer: I am a testing zealot
@@ -58,12 +61,6 @@ You are building code for reuse and the first use of your code is your tests.
 <ul>
 <li>
 This one I'm serious about. Our industry is starving for developers. We need them so badly that we'll take average talent, average effort and we'll even pay a lot for it. What we're left with is average products that fail in spectacular and unanticiapated ways.
-<li>
-You can join the ranks of the mediocre easily. It's a low bar to cross. But if you want to be great, you have to test drive. I am an easy-going guy but I don't compromise on this. There's too much at stake.
-<li>
-I can tell you test driven code from non test-driven code in 2 seconds and I don't even need to see the tests. At a certain point it becomes obvious, second nature. You can feel the presence of testing and competency.
-<li>
-Our Users deserve better than they have right now. They deserve quality, craftsmanship, attention to detail. This is how you give it to them.
 </ul>
 </aside>
 
@@ -72,10 +69,58 @@ Our Users deserve better than they have right now. They deserve quality, craftsm
 * You Should Only Learn to Test Drive if You Want to Be a *Good* Developer
 
 ---
+<aside class="notes">
+<ul>
+<li>
+Here's the most recent example, and I'm sure some of you have been following this. The Federal government hired a team of contractors to develop healthcare.gov. The results were disasterous.
+<li>
+The site falls over under heavy load
+<li>
+It forgets users that regsitered before Oct 1
+<li>
+Users are prevented from opening accounts for no reason.
+<li>
+Users received a registration email with a broken link in it.
+<li>
+I'd bet a large amount of money that this site was not test driven. It's easy to lampoon the developers without realizing the truth: this can happen to _anybody_. These bugs _have_ happened to everybody. This can happen to me tomorrow if I don't stick to the fundamentals. 
+</ul>
+</aside>
+
+##Careless Implementation Hits Home
+
+![times](../../assets/times.png)
+
+---
+<aside class="notes">
+<ul>
+<li>
+You can join the ranks of the mediocre easily. It's a low bar to cross. But if you aspire to better, and I know everyone here does, you have to test drive. I am an easy-going guy but I don't compromise on this. There's too much at stake.
+<li>
+I can tell you test driven code from non test-driven code in 2 seconds and I don't even need to see the tests. At a certain point it becomes obvious, second nature. You can feel the presence of testing and competency.
+<li>
+Our Users deserve better than they have right now. They deserve quality, craftsmanship, attention to detail. This is how you give it to them.
+</ul>
+</aside>
+
+##Aspire to be Better
+
+![mediocrity](../../assets/mediocrity.jpg)
+
+---
 
 ## `</rant>`
 
 ---
+<aside class="notes">
+<ul>
+<li>
+This project was a pleasure to work on.
+<li>
+We released whenever we wanted. 
+<li>
+Bugs were found and fixed in seconds
+</ul>
+</aside>
 
 ##What Does Good Testing Look Like?
 ![loc](../../assets/loc.png)
@@ -83,26 +128,27 @@ Our Users deserve better than they have right now. They deserve quality, craftsm
 
 ---
 
+##How Do I Get Started?
+
+---
 <aside class="notes">
 <ul>
 <li>
 3 steps to getting started with rspec in your rails app.
-<li>
-I name all of my machines after musicians or bands.
-<li>
-TODO: configure minitest
 </ul>
 </aside>
 
 ##How to Get Up and Running
 * Skip the test/ dirs with `rails new $app_name -skip-test-unit`
-* Add `gem 'rspec-rails'` to Gemfile
+* Add `gem 'rspec-rails'`, `gem 'capybara'` to Gemfile
 * `rake generate rspec:install`
 
+```
     joe@warpaint:~/dev/ga/temp/slacker$ rails generate rspec:install
           create  .rspec
           create  spec
           create  spec/spec_helper.rb
+```
 
 ---
 
@@ -114,18 +160,18 @@ TODO: configure minitest
 ---
 
 ##Test Driving
-###Start with the Expectations
+###Test Outside-In
 
 ---
 
 ##Test Driving
-###Test Outside-In
+###Start with the Expectations
 
 ---
 ##What did we learn?
 
 * Test first isn't easy and it's not always fast
-* Let the code guide you: I test drove through three classes without looking at the browser.
+* Let the code guide you, not the browser
 * There's _so_ much to learn
 
 ---
