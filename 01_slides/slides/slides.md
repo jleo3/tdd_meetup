@@ -99,6 +99,8 @@ I'd bet a large amount of money that this site was not test driven. It's easy to
 You can join the ranks of the mediocre easily. It's a low bar to cross. But if you aspire to better, and I know everyone here does, you have to test drive. I am an easy-going guy but I don't compromise on this. 
 
 <li>
+Everyone here is a developer. The only question is whether you're going to be any good at it.
+<li>
 Not on personal projects, not when I'm pairing, and not during interviews. There's too much at stake.
 <li>
 End users of web applications (everybody) deserve better than they have now. They deserve quality, craftsmanship, attention to detail. This is how you give it to them.
